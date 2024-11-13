@@ -1,4 +1,33 @@
 body
 {
-    background-color: blackclea;
+    background-color: #faf6f6;  
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
+
+h1{
+    color: rgb(15, 11, 247);
+margin-bottom: 20px;
+}
+.login-container
+{
+background-color: #011105; /* Fundo branco para o formulário de login */
+padding: 45px; /* Adiciona espaçamento interno dentro da caixa de login */
+border-radius: 30px; /* Bordas arredondadas */
+box-shadow:  4px 8px rgba(1, 1, 1, 1.1); /* Adiciona sombra suave ao redor */
+width: 20%; /* Permite que a largura seja fluida, ocupando o máximo possível */
+max-width: 200px; /* Limita a largura máxima a 400px */
+}
+
+label {
+font-weight: bold; /* Torna o texto do label mais forte (negrito) */ 
+margin-bottom: 2px; /* Espaçamento entre o label e o input */   
+color: rgb(50, 247, 11);''
+}
+
